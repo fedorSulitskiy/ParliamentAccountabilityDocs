@@ -69,14 +69,45 @@ Note the *default* values; since we get data from the P-API directly this kind o
     "status": 200,
     "message": "MP found",
     "data": {
-        "id": 0, // default value
-        "papi_id": 4514,
-        "name": "Starmer, Sir Keir",
-        "party": "Labour",
-        "constituency": "Holborn and St Pancras",
-        "description": "Rt Hon Sir Keir Starmer MP",
-        "created_at": "0001-01-01T00:00:00Z", // default value
-        "updated_at": "0001-01-01T00:00:00Z" // default value
+        "id": 0,
+        "papi_id": 185,
+        "name": "Corbyn, Jeremy",
+        "party": "Independent",
+        "constituency": "Islington North",
+        "description": "Rt Hon Jeremy Corbyn MP",
+        "synopsis": {
+            "value": "The Rt Hon Jeremy Corbyn is the Independent MP for <a href='/constituency/4120/overview'>Islington North</a>, and has been an MP continually since 9 June 1983.",
+            "links": [
+                {
+                    "rel": "self",
+                    "href": "/Members/185/Synopsis",
+                    "method": "GET"
+                }
+                ...
+            ]
+        },
+        "interests": [
+            {
+                "id": 3,
+                "name": "2. (a) Support linked to an MP but received by a local party organisation or indirectly via a central party organisation",
+                "sortOrder": 0,
+                "interests": [
+                    {
+                        "id": 5980,
+                        "interest": "Name of donor: We Deserve Better\r\nAddress of donor: Pelican House, 144 Cambridge Heath Rd, London E1 5QJ\r\nAmount of donation or nature and value if donation in kind: £10,000 for political Activities. This was repaid on 7 June 2024\r\nDonor status: unincorporated association\r\n(Registered 9 July 2024; updated 5 July 2024)",
+                        "createdWhen": "2024-10-02T15:01:29.8166667",
+                        "lastAmendedWhen": "2024-08-16T15:03:06.43",
+                        "deletedWhen": null,
+                        "isCorrection": false,
+                        "childInterests": []
+                    },
+                    ...
+                ]
+            },
+            ...
+        ],
+        "created_at": "0001-01-01T00:00:00Z",
+        "updated_at": "0001-01-01T00:00:00Z"
     }
 }
 ```
