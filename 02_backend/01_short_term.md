@@ -16,26 +16,26 @@ When we need specific data we search for first 20(?) MPs in the database and the
 - [x] Their interests (financial)
 - [x] Their contituency
 - [x] Their party
-- [ ] Land they own on a map
+- ❗ Land they own on a map
 
 ## 28 - Dec - 2024
 
 ### Simple MP Data
 
-- [ ] Contact Details for MPs
+- [x] Contact Details for MPs
 - [x] Use REGEX to get all £ numbers from each interest.
   - [x] InterestSummary Object implemented
 
 ### Complex MP Data
 
-- [ ] `/Biography` mixin to MP object
-- [ ] `/Voting` records mixin to MP object
+- [x] `/Biography` mixin to MP object
+- ❗ `/Voting` records mixin to MP object
 
 ### Constituency Data
 
-- [ ] GeoJSON for constituency boundaries
-- [ ] Latest Election results for the constituency
-- [ ] Constituency summary
+- [x] GeoJSON for constituency boundaries
+- [x] Latest Election results for the constituency
+- [x] Constituency summary
 
 ## 30 - Dec - 2024
 
