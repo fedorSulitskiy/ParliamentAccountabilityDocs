@@ -89,3 +89,20 @@ type ChildInterest struct {
 	Summary         InterestSummary `json:"summary"`
 }
 ```
+
+## 11 - Feb - 2025
+
+### New Tasks:
+
+- [ ] Remove `loguru` dependency on the logger
+	- Write custom logger
+- [ ] Remove `gin` dependency on the router
+	- Write custom router using standard library
+- [ ] Run the bakend as binaries instead of using docker
+	- [ ] Use `nix` to manage the environment
+	- [ ] Use `nix` to manage the deployment
+- [ ] Modularise the nix configuration
+	- [Reference](https://www.youtube.com/watch?v=vYc6IzKvAJQ&t=31s)
+- [ ] Manage secrets on nix using SOPS
+	- [Reference](https://www.youtube.com/watch?v=G5f6GC7SnhU)
+- [ ] Expose the API to the internet using Cloudflare Zero Trust
