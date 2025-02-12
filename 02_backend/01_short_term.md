@@ -94,10 +94,10 @@ type ChildInterest struct {
 
 ### New Tasks:
 
-- [ ] Remove `loguru` dependency on the logger
+- [x] Remove `loguru` dependency on the logger
 	- Write custom logger
-- [ ] Remove `gin` dependency on the router
-	- Write custom router using standard library
+- ~~Remove `gin` dependency on the router~~
+	- ~~Write custom router using standard library~~
 - [ ] Run the bakend as binaries instead of using docker
 	- [ ] Use `nix` to manage the environment
 	- [ ] Use `nix` to manage the deployment
